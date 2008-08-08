@@ -6,14 +6,14 @@
 Summary:	Text::WikiFormat perl module for translating Wiki formatted text into other formats
 Name:		perl-Text-WikiFormat
 Version:	0.79
-Release:	1
+Release:	2
 # same as perl
-# Source0-md5:	7f3e888ff898f67332216c4a25523f30
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CH/CHROMATIC/Text-WikiFormat-%{version}.tar.gz
+# Source0-md5:	7f3e888ff898f67332216c4a25523f30
+BuildRequires:  perl-devel >= 1:5.8.0
+BuildRequires:  rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
