@@ -1,7 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
+
+%define		pdir	Text
+%define		pnam	WikiFormat
 %include	/usr/lib/rpm/macros.perl
 Summary:	Text::WikiFormat perl module for translating Wiki formatted text into other formats
 Name:		perl-Text-WikiFormat
@@ -12,8 +14,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CH/CHROMATIC/Text-WikiFormat-%{version}.tar.gz
 # Source0-md5:	7f3e888ff898f67332216c4a25523f30
-BuildRequires:  perl-devel >= 1:5.8.0
-BuildRequires:  rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Text-WikiFormat/
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
