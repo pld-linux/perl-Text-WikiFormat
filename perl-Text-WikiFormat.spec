@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	WikiFormat
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::WikiFormat perl module for translating Wiki formatted text into other formats
 Name:		perl-Text-WikiFormat
 Version:	0.79
