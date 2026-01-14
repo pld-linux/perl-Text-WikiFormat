@@ -7,7 +7,7 @@
 Summary:	Text::WikiFormat perl module for translating Wiki formatted text into other formats
 Name:		perl-Text-WikiFormat
 Version:	0.79
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
